@@ -1,12 +1,1 @@
-```
-# Dependencies
-node_modules/
-
-# Editors
-.vscode/
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored in this case, as the only change is adding a logo SVG file, which is a source asset that should be tracked in version control.

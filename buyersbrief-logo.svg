@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="skyBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7FA8D4;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Fonts -->
+    <style>
+      .logo-text { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .brand-name { font-weight: 700; font-size: 42px; letter-spacing: -0.5px; }
+      .domain { font-weight: 400; font-size: 42px; }
+      .tagline { font-size: 14px; fill: #7FA8D4; letter-spacing: 2px; text-transform: uppercase; }
+    </style>
+  </defs>
+  
+  <!-- Light Background Version -->
+  <g id="light-version">
+    <rect width="800" height="200" fill="#F4F1EC"/>
+    
+    <!-- Icon Group -->
+    <g transform="translate(60, 50)">
+      <!-- Document Shape 1 (Back) -->
+      <path d="M20 10 L70 10 L90 30 L90 90 L20 90 Z" 
+            fill="#7FA8D4" opacity="0.3"/>
+      
+      <!-- Document Shape 2 (Front) -->
+      <path d="M10 0 L60 0 L80 20 L80 80 L10 80 Z" 
+            fill="url(#skyBlueGrad)"/>
+      
+      <!-- Fold corner detail -->
+      <path d="M60 0 L60 20 L80 20 Z" fill="#E8B4B8"/>
+      
+      <!-- BB Initials integrated into document lines -->
+      <g fill="#F4F1EC">
+        <!-- First B -->
+        <path d="M28 25 L28 55 M28 25 L38 25 A8 8 0 0 1 38 41 L28 41 M28 41 L39 41 A9 9 0 0 1 39 55 L28 55" 
+              stroke="#F4F1EC" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        
+        <!-- Second B -->
+        <path d="M48 25 L48 55 M48 25 L58 25 A8 8 0 0 1 58 41 L48 41 M48 41 L59 41 A9 9 0 0 1 59 55 L48 55" 
+              stroke="#F4F1EC" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+      <!-- Subtle accent line -->
+      <line x1="10" y1="75" x2="80" y2="75" stroke="#E8B4B8" stroke-width="2" opacity="0.6"/>
+    </g>
+    
+    <!-- Text/Wordmark -->
+    <g transform="translate(160, 95)">
+      <text class="logo-text">
+        <tspan class="brand-name" fill="#1E1E1E">buyers</tspan>
+        <tspan class="domain" fill="#4A90D9">brief</tspan>
+        <tspan x="0" y="35" class="tagline">.com.au</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Dark Background Version (shown below) -->
+  <g id="dark-version" transform="translate(0, 200)">
+    <rect width="800" height="200" fill="#1E1E1E"/>
+    
+    <!-- Icon Group -->
+    <g transform="translate(60, 50)">
+      <!-- Document Shape 1 (Back) -->
+      <path d="M20 10 L70 10 L90 30 L90 90 L20 90 Z" 
+            fill="#7FA8D4" opacity="0.4"/>
+      
+      <!-- Document Shape 2 (Front) -->
+      <path d="M10 0 L60 0 L80 20 L80 80 L10 80 Z" 
+            fill="url(#skyBlueGrad)"/>
+      
+      <!-- Fold corner detail -->
+      <path d="M60 0 L60 20 L80 20 Z" fill="#E8B4B8"/>
+      
+      <!-- BB Initials -->
+      <g fill="#1E1E1E">
+        <!-- First B -->
+        <path d="M28 25 L28 55 M28 25 L38 25 A8 8 0 0 1 38 41 L28 41 M28 41 L39 41 A9 9 0 0 1 39 55 L28 55" 
+              stroke="#1E1E1E" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        
+        <!-- Second B -->
+        <path d="M48 25 L48 55 M48 25 L58 25 A8 8 0 0 1 58 41 L48 41 M48 41 L59 41 A9 9 0 0 1 59 55 L48 55" 
+              stroke="#1E1E1E" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+      <!-- Subtle accent line -->
+      <line x1="10" y1="75" x2="80" y2="75" stroke="#E8B4B8" stroke-width="2" opacity="0.8"/>
+    </g>
+    
+    <!-- Text/Wordmark -->
+    <g transform="translate(160, 95)">
+      <text class="logo-text">
+        <tspan class="brand-name" fill="#F4F1EC">buyers</tspan>
+        <tspan class="domain" fill="#4A90D9">brief</tspan>
+        <tspan x="0" y="35" class="tagline" fill="#7FA8D4">.com.au</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Favicon Version (standalone icon) -->
+  <g id="favicon-version" transform="translate(60, 420)">
+    <rect width="100" height="100" fill="#F4F1EC"/>
+    <g transform="translate(10, 10)">
+      <!-- Document Shape -->
+      <path d="M10 0 L60 0 L80 20 L80 80 L10 80 Z" fill="url(#skyBlueGrad)"/>
+      <path d="M60 0 L60 20 L80 20 Z" fill="#E8B4B8"/>
+      
+      <!-- BB Initials -->
+      <g fill="#F4F1EC">
+        <path d="M28 25 L28 55 M28 25 L38 25 A8 8 0 0 1 38 41 L28 41 M28 41 L39 41 A9 9 0 0 1 39 55 L28 55" 
+              stroke="#F4F1EC" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M48 25 L48 55 M48 25 L58 25 A8 8 0 0 1 58 41 L48 41 M48 41 L59 41 A9 9 0 0 1 59 55 L48 55" 
+              stroke="#F4F1EC" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <line x1="10" y1="75" x2="80" y2="75" stroke="#E8B4B8" stroke-width="2" opacity="0.6"/>
+    </g>
+  </g>
+</svg>
