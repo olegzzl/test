@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо Дизайнера | Креативний Простір</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Завантажувальний екран -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-text">
+                <span class="letter">С</span>
+                <span class="letter">Т</span>
+                <span class="letter">В</span>
+                <span class="letter">О</span>
+                <span class="letter">Р</span>
+                <span class="letter">Ю</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Курсор -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Навігація -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <span class="logo-text">DESIGN</span>
+            <span class="logo-dot">.</span>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Головна</a></li>
+            <li><a href="#about" class="nav-link">Про мене</a></li>
+            <li><a href="#portfolio" class="nav-link">Портфоліо</a></li>
+            <li><a href="#services" class="nav-link">Послуги</a></li>
+            <li><a href="#contact" class="nav-link">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <!-- Повноекранне меню -->
+    <div class="fullscreen-menu" id="fullscreen-menu">
+        <div class="menu-close" id="menu-close">×</div>
+        <div class="menu-items">
+            <a href="#home" class="full-menu-link">Головна</a>
+            <a href="#about" class="full-menu-link">Про мене</a>
+            <a href="#portfolio" class="full-menu-link">Портфоліо</a>
+            <a href="#services" class="full-menu-link">Послуги</a>
+            <a href="#contact" class="full-menu-link">Контакти</a>
+        </div>
+        <div class="menu-decoration">
+            <div class="circle-decor circle-1"></div>
+            <div class="circle-decor circle-2"></div>
+            <div class="circle-decor circle-3"></div>
+        </div>
+    </div>
+
+    <!-- Головна секція -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text-wrapper">
+                <h1 class="hero-title">
+                    <span class="title-line">Створюю</span>
+                    <span class="title-line highlight">Цифрове</span>
+                    <span class="title-line">Мистецтво</span>
+                </h1>
+                <p class="hero-subtitle">Дизайнер, що перетворює ідеї на візуальну магію</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <span>Переглянути роботи</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Зв'язатися</span>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Гортайте вниз</span>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </section>
+
+    <!-- Секція "Про мене" -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Хто я</span>
+                <h2 class="section-title">Креативний Дизайнер</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-tilt>
+                    <div class="image-frame">
+                        <div class="placeholder-img">Ваше фото</div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="number">5+</span>
+                        <span class="text">років досвіду</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="lead">Привіт! Я створюю унікальні цифрові рішення, що надихають.</p>
+                    <p>Мій підхід до дизайну поєднує мистецтво, технології та стратегічне мислення. Кожен проєкт — це нова історія, яку я допомагаю розповісти через візуальну мову.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <span>UI/UX Дизайн</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💻</div>
+                            <span>Веб-дизайн</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">✨</div>
+                            <span>Брендинг</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📱</div>
+                            <span>Мобільні додатки</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Дізнатися більше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція "Портфоліо" -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Мої роботи</span>
+                <h2 class="section-title">Вибрані Проєкти</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Усі</button>
+                <button class="filter-btn" data-filter="web">Веб</button>
+                <button class="filter-btn" data-filter="branding">Брендинг</button>
+                <button class="filter-btn" data-filter="mobile">Мобільні</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 1</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Веб-дизайн</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 2</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Брендинг</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 3</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Мобільний додаток</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 4</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Веб-дизайн</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 5</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Брендинг</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <div class="placeholder-project">Проєкт 6</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Назва проєкту</h3>
+                                    <p>Мобільний додаток</p>
+                                    <div class="view-btn">Переглянути →</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція "Послуги" -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Що я роблю</span>
+                <h2 class="section-title">Мої Послуги</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🎯</div>
+                    <h3>UI/UX Дизайн</h3>
+                    <p>Створення інтуїтивно зрозумілих інтерфейсів, що захоплюють користувачів</p>
+                    <ul class="service-list">
+                        <li>Дослідження користувачів</li>
+                        <li>Прототипування</li>
+                        <li>Тестування</li>
+                    </ul>
+                </div>
+                <div class="service-card featured" data-tilt>
+                    <div class="service-icon">🌐</div>
+                    <h3>Веб-дизайн</h3>
+                    <p>Сучасні, адаптивні веб-сайти, що виділяються з натовпу</p>
+                    <ul class="service-list">
+                        <li>Landing pages</li>
+                        <li>Корпоративні сайти</li>
+                        <li>Інтернет-магазини</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🏷️</div>
+                    <h3>Брендинг</h3>
+                    <p>Створення унікальної візуальної ідентичності для вашого бізнесу</p>
+                    <ul class="service-list">
+                        <li>Логотипи</li>
+                        <li>Фірмовий стиль</li>
+                        <li>Брендбуки</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">📲</div>
+                    <h3>Мобільний дизайн</h3>
+                    <p>Зручні та красиві мобільні додатки для iOS та Android</p>
+                    <ul class="service-list">
+                        <li>iOS додатки</li>
+                        <li>Android додатки</li>
+                        <li>Адаптивність</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція "Контакти" -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Зв'яжіться зі мною</span>
+                <h2 class="section-title">Давайте Створимо Щось Разом</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@designer.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+38 (0XX) XXX-XX-XX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Локація</h4>
+                            <p>Київ, Україна</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше ім'я" required>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Повідомлення" rows="5" required></textarea>
+                        <div class="input-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Відправити</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">DESIGN.</div>
+                <p>&copy; 2024 Всі права захищено. Створено з ❤️ в Україні</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Спливаюче повідомлення -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <span class="toast-icon">✓</span>
+            <span class="toast-message">Повідомлення відправлено!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
